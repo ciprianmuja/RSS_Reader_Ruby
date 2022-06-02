@@ -15,7 +15,7 @@ class RSSReader
 
     #Creating rss feed: asigning parsed RSS to feed and extracting info from it using method
     def create_rss
-        feed = parse_rss_feed#parse_rss_feed(read_rss_feed)
+        feed = parse_rss_feed
         extract_rss_feed(feed)
     end
 
