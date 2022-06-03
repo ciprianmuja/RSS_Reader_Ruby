@@ -64,8 +64,8 @@ end
 
 def get_choice
     puts "Would you like to try another url? y/n"
-    choice = gets.chomp.downcase
-case choice
+    $choice = gets.chomp.downcase
+case $choice
 when "y"
     url
 when "n"
@@ -74,7 +74,9 @@ end
 end
 
 url
-get_choice
+until $choice == "n"
+    get_choice
+end
 
 
 
