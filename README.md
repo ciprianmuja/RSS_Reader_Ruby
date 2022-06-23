@@ -1,2 +1,2 @@
 # RSS_Reader_Ruby
-Creating an RSS reader with Ruby
+Created an RSS Reader in Ruby that can output the news from the URL you input.
